@@ -24,7 +24,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('iqrafarag90@gmail.com', 'Helpdesk');
+    $mail->setFrom('iqrafarah90@gmail.com', 'Helpdesk');
     $mail->addAddress($email);
     $mail->addCC('iqrafarah02@hotmail.com');
 
